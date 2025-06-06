@@ -37,7 +37,7 @@
   },
   {
     "name": "WeChat",
-    "icon": "c/images/icon/WeChat.png",
+    "icon": "/images/icon/WeChat.png",
     "tip": "V我50 ~",
     "url": "https://jpg.zxlwq.dpdns.org/blog/23.webp"
   }
