@@ -3,36 +3,42 @@
     "name": "Github",
     "icon": "/images/icon/github.png",
     "tip": "去 Github 看看",
-    "url": "https://github.com/imsyy"
+    "url": "https://github.com/zxlwq"
   },
   {
     "name": "BiliBili",
     "icon": "/images/icon/bilibili.png",
     "tip": "(゜-゜)つロ 干杯 ~",
-    "url": "https://space.bilibili.com/98544142"
+    "url": "https://space.bilibili.com/3546618219465307?spm_id_from=333.1007.0.0"
   },
   {
     "name": "QQ",
     "icon": "/images/icon/qq.png",
     "tip": "有什么事吗",
-    "url": "https://res.abeim.cn/api/qq/?qq=1539250352"
+    "url": "https://res.abeim.cn/api/qq/?qq=2668416318"
   },
   {
     "name": "Email",
     "icon": "/images/icon/email.png",
     "tip": "来封 Email ~",
-    "url": "mailto:one@imsyy.top"
+    "url": "mailto:zxlwq919@gmail.com"
   },
   {
     "name": "Twitter",
     "icon": "/images/icon/twitter.png",
-    "tip": "你懂的 ~",
-    "url": "https://twitter.com/iimmsyy"
+    "tip": "不怎么发推 ~",
+    "url": "https://x.com/Zxlwq826919"
   },
   {
     "name": "Telegram",
     "icon": "/images/icon/telegram.png",
-    "tip": "你懂的 ~",
-    "url": "https://t.me/bottom_user"
+    "tip": "快来！ ~",
+    "url": "https://t.me/Zxlwq520"
+  },
+  {
+    "name": "Aifadian",
+    "icon": "/images/icon/aifadian.png",
+    "tip": "爱发电嘛 ~",
+    "url": "https://www.instagram.com/imissyouzxl/"
   }
 ]
