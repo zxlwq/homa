@@ -26,26 +26,19 @@
 <script setup>
 import { mainStore } from "@/store";
 import { Error } from "@icon-park/vue-next";
+import { ref, watch, onMounted, onBeforeUnmount, h } from "vue";
 
 const store = mainStore();
 const bgUrl = ref(null);
 const imgTimeout = ref(null);
 const emit = defineEmits(["loadComplete"]);
 
-// 壁纸随机数
-// 请依据文件夹内的图片个数修改 Math.random() 后面的第一个数字
-const bgRandom = Math.floor(Math.random() * 10 + 1);
-
 // 更换壁纸链接
 const changeBg = (type) => {
   if (type == 0) {
-    bgUrl.value = `/images/background${bgRandom}.jpg`;
+    bgUrl.value = `/images/favicon.jpg`; // 写死的壁纸路径
   } else if (type == 1) {
-    bgUrl.value = "https://api.dujin.org/bing/1920.php";
-  } else if (type == 2) {
-    bgUrl.value = "https://api.vvhan.com/api/wallpaper/views";
-  } else if (type == 3) {
-    bgUrl.value = "https://api.vvhan.com/api/wallpaper/acg";
+    bgUrl.value = "https://bloga.zxlwq.dpdns.org/jpg/favicon.webp";
   }
 };
 
@@ -62,7 +55,6 @@ const imgLoadComplete = () => {
 // 图片动画完成
 const imgAnimationEnd = () => {
   console.log("壁纸加载且动画完成");
-  // 加载完成事件
   emit("loadComplete");
 };
 
@@ -76,7 +68,10 @@ const imgLoadError = () => {
       fill: "#efefef",
     }),
   });
-  bgUrl.value = `/images/background${bgRandom}.jpg`;
+
+  if (bgUrl.value !== `/images/favicon.jpg`) {
+    bgUrl.value = `/images/favicon.jpg`;
+  }
 };
 
 // 监听壁纸切换
@@ -88,7 +83,6 @@ watch(
 );
 
 onMounted(() => {
-  // 加载壁纸
   changeBg(store.coverType);
 });
 
@@ -135,8 +129,8 @@ onBeforeUnmount(() => {
     height: 100%;
     background-image: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.5) 100%),
       radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%);
-
     transition: 1.5s;
+
     &.hidden {
       opacity: 0;
       transition: 1.5s;
@@ -159,6 +153,7 @@ onBeforeUnmount(() => {
     display: flex;
     justify-content: center;
     align-items: center;
+
     &:hover {
       transform: scale(1.05);
       background-color: #00000060;
