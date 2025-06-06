@@ -2,36 +2,76 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://blog.imsyy.top/"
+    "link": "https://blog.zxlwq.dpdns.org/"
   },
   {
     "icon": "Cloud",
     "name": "网盘",
-    "link": "https://pan.imsyy.top/"
+    "link": "https://fd.zxlwq.dpdns.org/"
   },
   {
     "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://music.imsyy.top/"
+    "name": "网易云音乐",
+    "link": "https://splayer.zxlwq.dpdns.org/"
   },
   {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": "https://nav.imsyy.top/"
+    "icon": "Video",
+    "name": "影视站",
+    "link": "https://tvc.zxlwq.dpdns.org/"
   },
   {
-    "icon": "Book",
-    "name": "网址集",
-    "link": "https://web.imsyy.top/"
+    "icon": "Video",
+    "name": "在线影视",
+    "link": "https://tvd.zxlwq.dpdns.org/"
+  },
+  {
+    "icon": "Envelope",
+    "name": "临时邮箱",
+    "link": "https://mail.zxlwq.dpdns.org/"
   },
   {
     "icon": "Fire",
     "name": "今日热榜",
-    "link": "https://hot.imsyy.top/"
+    "link": "https://newsnow.zxlwq.dpdns.org/"
   },
   {
     "icon": "LaptopCode",
     "name": "站点监测",
-    "link": "https://status.imsyy.top/"
+    "link": "https://uptime.zxlwq.dpdns.org/"
+  },
+  {
+    "icon": "Magic",
+    "name": "优选订阅器",
+    "link": "https://sub.zxlwq.dpdns.org/"
+  },
+  {
+    "icon": "ExchangeAlt",
+    "name": "订阅转换",
+    "link": "http://subl.zxlwq.dpdns.org/"
+  },
+  {
+    "icon": "Link",
+    "name": "短链生成",
+    "link": "https://linklet.zxlwq.dpdns.org/"
+  },
+  {
+    "icon": "Images",
+    "name": "图床",
+    "link": "https://pixpro.zxlwq.dpdns.org/"
+  },
+  {
+    "icon": "Tools",
+    "name": "在线工具箱",
+    "link": "https://tool.zxlwq.dpdns.org/"
+  },
+  {
+    "icon": "Compass",
+    "name": "导航站",
+    "link": "https://snav.zxlwq.dpdns.org/"
+  },
+  {
+    "icon": "FileImage",
+    "name": "封面生成",
+    "link": "https://cover.zxlwq.dpdns.org/"
   }
 ]
